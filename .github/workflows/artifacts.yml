@@ -46,7 +46,7 @@ jobs:
             - name: List Files
               run: ls -la
             - name: Show Script Files
-              run: echo "${{ needs.build.outputs.script-file }}"
+              run: echo "${{ needs.build.outputs.script-files }}"
 
             - name: Deploy Website
               run: echo "Deploying website..."
